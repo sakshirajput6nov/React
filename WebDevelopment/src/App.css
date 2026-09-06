@@ -1,0 +1,36 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+#root {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+/* Put all UserCards in a row */
+#root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Keep headings above the cards */
+#root > h1,
+#root > h2 {
+  width: 100%;
+}
