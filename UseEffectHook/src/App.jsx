@@ -74,9 +74,9 @@ function App() {
     <h2> my count is{count}</h2>
     <h2> my total is{total}</h2> */}
    {/* <Logger/> */}
-   {/* <MultiEffectComponent/> */}
+   <MultiEffectComponent/>
    {/* <ResizeComponent/> */}
-   <DataFetcher/>
+   {/* <DataFetcher/> */}
 
     </div>
   )
