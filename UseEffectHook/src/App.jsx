@@ -6,7 +6,9 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import Timer from "./components/Timer"
 import Logger from './components/Logger'
-
+import MultiEffectComponent from './components/MultiEffectComponent'
+import ResizeComponent from './components/ResizeComponent'
+import DataFetcher from './components/DataFetcher'
 function App() {
   // const [count, setCount] = useState(0);
   // const[total,setTotal]=useState(0);
@@ -71,9 +73,14 @@ function App() {
     <button onClick={handleClick1} >total </button>
     <h2> my count is{count}</h2>
     <h2> my total is{total}</h2> */}
-   <Logger/>
+   {/* <Logger/> */}
+   {/* <MultiEffectComponent/> */}
+   {/* <ResizeComponent/> */}
+   <DataFetcher/>
+
     </div>
   )
 }
 
 export default App
+
